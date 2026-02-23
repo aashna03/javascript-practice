@@ -1,1 +1,1 @@
-console.log('JS development');
+console.log('JS development OK');

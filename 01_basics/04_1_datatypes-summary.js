@@ -35,3 +35,26 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// stack => primitive data types
+// heap => non primitive data types
+
+let myVariable = "aashna"
+anotherVariable = myVariable
+anotherVariable = "piddi"
+
+console.log(myVariable); // aashna
+console.log(anotherVariable); // piddi
+
+//
+let myObj1 = {
+    name: "aashna",
+    skill: "backend",
+}
+let myObj2 = myObj1
+
+myObj2.skill = "frontend"
+
+console.log(myObj1); // { name: 'aashna', skill: 'frontend' }
+console.log(myObj2); // { name: 'aashna', skill: 'frontend' }
+

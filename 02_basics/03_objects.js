@@ -77,6 +77,6 @@ JsUser.greetingTwo = function(){
 }
 
 JsUser.greetingTwo();
-// 
+// output: Hello JS user, Aashna, this refers to the object that is calling the function, so in this case it refers to the JsUser object, so this.name is the name property of the JsUser object, which is "Aashna", so it prints "Hello JS user, Aashna" to the console
 
 // objects created in 2 ways - object literals and object constructor

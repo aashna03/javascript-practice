@@ -20,8 +20,13 @@ const temperature = 41
 
 // console.log(`User power: ${power}`);// ReferenceError: power is not defined, because power is declared with let, which has block scope, so it is only accessible within the block in which it is declared, and since we are trying to access it outside the block, it throws a ReferenceError saying that power is not defined
 
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 // shorthand notation
-// const balance1 = 1000
+// const balance1 = 900
 
 // if (balance1 > 500) console.log("test"),console.log("test2");
 // adding  more than 1 statement in if block without using curly braces will only execute the first statement, so in this case, it will only execute console.log("test") and it will not execute console.log("test2"), so it will only print "test" to the console and it will not print "test2" to the console, because without using curly braces
@@ -29,6 +34,7 @@ const temperature = 41
 // but this is not a good practice, because it can lead to confusion and it can also lead to bugs in the code, so it is always better to use curly braces to define the block of code that should be executed when the condition is true, so that it is clear and easy to understand, and it also helps to avoid any potential bugs in the code, so it is always recommended to use curly braces even for single statement blocks, because it improves the readability and maintainability of the code, and it also helps to avoid any potential errors in the future when we add more statements to the block without using curly braces
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // const balance = 1000
 // if (balance < 500) {
